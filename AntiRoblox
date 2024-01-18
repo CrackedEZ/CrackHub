@@ -1,4 +1,4 @@
-print("Welcome To Maru(Main)Hub")
+print("Welcome To Script Paid Hub")
 print("Thank You For Using Maru Script")
 print("I'm AfxcaxiRoblox")
 print("I'm Sorry Banana, Maru, Royx, Luxury, Normal, W-azure")
@@ -10,7 +10,7 @@ local a = request({
     Headers = {
         ["Content-Type"] = "application/json"
     },
-    Body = game:GetService("HttpService"):JSONEncode({content = "1 New Player Just Executed Script Maru Main(Hub), That Player's Roblox Name: ||"..game.Players.LocalPlayer.Name.."||"})
+    Body = game:GetService("HttpService"):JSONEncode({content = "1 New Player Just Executed Script Paid, That Player's Roblox Name: ||"..game.Players.LocalPlayer.Name.."||"})
 })
 print(a.StatusCode)
 spawn(function() 
