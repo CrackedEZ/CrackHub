@@ -11,6 +11,7 @@ spawn(function()
     wait(1)
     require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AfxcaxiRoblox Hub <Color=/>"):Display()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join AfxcaxiRoblox's Discord to Get the Latest Information <Color=/>"):Display()
+end)
 wait(1)
 pcall(function()
 while wait() do
