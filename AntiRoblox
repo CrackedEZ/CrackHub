@@ -1,7 +1,25 @@
 game.Players.Localplayer.Name = "UsquKopemsn"
-wait(1)
-pcall(function()
-while wait() do
 game.Players.Localplayer.Name = "UsquKopemsn"
-end
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+wait(1)
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(1)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AfxcaxiRoblox Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Sorry Word : I'm Sorry, I Won't Sell Anymore <Color=/>"):Display()
 end)
