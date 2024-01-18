@@ -1,25 +1,13 @@
-spawn(function() 
-    repeat
-        task.wait()
-    until game:IsLoaded()
-    repeat
-        task.wait()
-    until game.Players
-    repeat
-        task.wait()
-    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
-    wait(1)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AfxcaxiRoblox Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join AfxcaxiRoblox's Discord to Get the Latest Information <Color=/>"):Display()
-end)
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.LocalPlayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
 wait(1)
 pcall(function()
 while wait() do
 game.Players.Localplayer.Name = "UsquKopemsn"
 end
 end)
-wait(1)
-game.Players.Localplayer.Name = "UsquKopemsn"
 wait(1)
 function AntiBan()
         for i, v in pairs(
@@ -76,6 +64,7 @@ assert(getrawmetatable)
         end
         return old(self, ...)
     end)
+wait(1)
 print("Hello I'm AfxcaxiRoblox")
 print("Hello I'm AfxcaxiRoblox")
 print("I'm Better Than HN Gaming")
@@ -84,3 +73,17 @@ print("Please Subscribe And Like My Youtube Channel")
 print("Please Subscribe And Like My Youtube Channel")
 print("HN Gaming Is Trash, Stupid")
 print("TYSM For Using My Script")
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(1)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AfxcaxiRoblox Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Sorry Word : I'm Sorry, I Won't Sell Anymore <Color=/>"):Display()
+end)
