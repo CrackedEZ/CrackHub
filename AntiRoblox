@@ -1,8 +1,3 @@
-game.Players.Localplayer.Name = "UsquKopemsn"
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-game.Players.Localplayer.Name = "UsquKopemsn"
-game.Players.Localplayer.Name = "UsquKopemsn"
-wait(1)
 pcall(function()
 while wait() do
 game.Players.Localplayer.Name = "UsquKopemsn"
