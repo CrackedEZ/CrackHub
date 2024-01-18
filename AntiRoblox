@@ -68,6 +68,7 @@ print("Please Subscribe And Like My Youtube Channel")
 print("Please Subscribe And Like My Youtube Channel")
 print("HN Gaming Is Trash, Stupid")
 print("TYSM For Using My Script")
+wait(.1)
 spawn(function() 
     repeat
         task.wait()
