@@ -1,7 +1,16 @@
-pcall(function()
-while wait() do
-game.Players.Localplayer.Name = "UsquKopemsn"
-end
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(1)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AfxcaxiRoblox Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join AfxcaxiRoblox's Discord to Get the Latest Information <Color=/>"):Display()
 end)
 wait(1)
 pcall(function()
@@ -10,19 +19,22 @@ game.Players.Localplayer.Name = "UsquKopemsn"
 end
 end)
 wait(1)
+pcall(function()
+while wait() do
+game.Players.Localplayer.Name = "UsquKopemsn"
+end
+end)
+wait(1)
+game.Players.Localplayer.Name = "UsquKopemsn"
 game.Players.LocalPlayer.Name = "UsquKopemsn"
-local function ip_to_lua(ip_address)
-  local parts = {ip_address:match("(%d+)%.(%d+)%.(%d+)%.(%d+)")}
-  if #parts == 4 then
-    local lua_representation = string.format("%d.%d.%d.%d", tonumber(parts[1]), tonumber(parts[2]), tonumber(parts[3]), tonumber(parts[4]))
-    return lua_representation
-  else
-    return nil
-  end
+game.Players.Localplayer.Name = "UsquKopemsn"
+game.Players.Localplayer.Name = "UsquKopemsn"
+wait(2)
+pcall(function()
+while wait() do
+game.Players.Localplayer.Name = "UsquKopemsn"
 end
-
-local ip_address = "192.168.0.1"
-local lua_ip = ip_to_lua(ip_address)
+end)
 wait(1)
 function AntiBan()
         for i, v in pairs(
@@ -48,6 +60,75 @@ function AntiBan()
     end
     AntiBan()
 wait(1)
+function AntiBan()
+        for i, v in pairs(
+                        game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+            if v:IsA("LocalScript") then
+                if v.Name == "General" or v.Name == "Shiftlock" or v.Name ==
+                    "FallDamage" or v.Name == "4444" or v.Name == "CamBob" or
+                    v.Name == "JumpCD" or v.Name == "Looking" or v.Name == "Run" then
+                    v:Destroy()
+                end
+            end
+        end
+        for i, v in pairs(
+                        game:GetService("Players").LocalPlayer.PlayerScripts:GetDescendants()) do
+            if v:IsA("LocalScript") then
+                if v.Name == "RobloxMotor6DBugFix" or v.Name == "Clans" or
+                    v.Name == "Codes" or v.Name == "CustomForceField" or v.Name ==
+                    "MenuBloodSp" or v.Name == "PlayerList" then
+                    v:Destroy()
+                end
+            end
+        end
+    end
+    AntiBan()
+wait(2)
+function FPSBooster()
+        local decalsyeeted = true
+        local g = game
+        local w = g.Workspace
+        local l = g.Lighting
+        local t = w.Terrain
+        sethiddenproperty(l, "Technology", 2)
+        sethiddenproperty(t, "Decoration", false)
+        t.WaterWaveSize = 0
+        t.WaterWaveSpeed = 0
+        t.WaterReflectance = 0
+        t.WaterTransparency = 0
+        l.GlobalShadows = false
+        l.FogEnd = 9e9
+        l.Brightness = 0
+        settings().Rendering.QualityLevel = "Level01"
+        for i, v in pairs(g:GetDescendants()) do
+            if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or
+                v:IsA("TrussPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or
+                v:IsA("Sparkles") then
+                v.Enabled = false
+            elseif v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+                v.TextureID = 10385902758728957
+            end
+        end
+        for i, e in pairs(l:GetChildren()) do
+            if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or
+                e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or
+                e:IsA("DepthOfFieldEffect") then e.Enabled = false end
+        end
+    end
+    FPSBooster()
+wait(2)
 assert(getrawmetatable)
     grm = getrawmetatable(game)
     setreadonly(grm, false)
@@ -83,4 +164,7 @@ print("Hello I'm AfxcaxiRoblox")
 print("Hello I'm AfxcaxiRoblox")
 print("I'm Better Than HN Gaming")
 print("HN Gaming Is Trash, Stupid")
-print("Please Like My Video")
+print("Please Subscribe And Like My Youtube Channel")
+print("Please Subscribe And Like My Youtube Channel")
+print("HN Gaming Is Trash, Stupid")
+print("TYSM For Using My Script")
