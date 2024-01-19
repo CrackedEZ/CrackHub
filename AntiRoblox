@@ -1,5 +1,5 @@
-print("Welcome To Crazzy Hub")
-print("Thank You For Using Crazzy Hub")
+print("Welcome To Radon Hub")
+print("Thank You For Using Radon Hub")
 local webhook = ""
 local a = request({
     Url = webhook,
@@ -21,9 +21,9 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(.3)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Crazzy Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Visit Crazzy Discord For More Information <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Thank You For Using Crazzy Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Radon Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Visit Alchemy Or Radon Discord For More Information <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Thank You For Using Radon Hub <Color=/>"):Display()
 end)
 print("Hello I'm xSync")
 print("Thank You For Using My Script")
