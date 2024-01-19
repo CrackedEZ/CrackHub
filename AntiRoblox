@@ -1,9 +1,5 @@
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-print("Welcome To Script Paid Hub")
-print("Thank You For Using Script Paid Script")
+print("Welcome To W-Azure Hub")
+print("Thank You For Using W-Azure Script")
 print("I'm AfxcaxiRoblox")
 print("I'm Sorry Banana, Maru, Royx, Luxury, Normal, W-azure")
 print("I'm Sorry, I Won't Sell Anymore")
@@ -66,20 +62,6 @@ assert(getrawmetatable)
         end
         return old(self, ...)
     end)
-wait(1)
-game.Players.LocalPlayer.Name = "UsquKopemsn"
-local function ip_to_lua(ip_address)
-  local parts = {ip_address:match("(%d+)%.(%d+)%.(%d+)%.(%d+)")}
-  if #parts == 4 then
-    local lua_representation = string.format("%d.%d.%d.%d", tonumber(parts[1]), tonumber(parts[2]), tonumber(parts[3]), tonumber(parts[4]))
-    return lua_representation
-  else
-    return nil
-  end
-end
-
-local ip_address = "192.168.0.1"
-local lua_ip = ip_to_lua(ip_address)
 wait(1)
 function AntiBan()
         for i, v in pairs(
